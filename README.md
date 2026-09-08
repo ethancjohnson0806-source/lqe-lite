@@ -1,18 +1,12 @@
 # LQE Lite
 
+## [Open LQE Lite in your browser](https://ethancjohnson0806-source.github.io/lqe-lite/)
+
+**Click the link above to use the app.** Wait for the page to load, then double-click `welcome.ipynb` or `01_What_Is_A_Qubit.ipynb` in the file list on the left. Choose **Python (Pyodide)** when prompted, wait for it to finish loading, and use the **Run** button to execute a cell.
+
 LQE Lite is a static, phone-friendly JupyterLite site for learning quantum computing in the browser. It embeds a pure-NumPy subset of the [Legitimate Quantum Engine](https://github.com/ethancjohnson0806-source/Legitimate-Quantum-Engine) and twenty adapted educational notebooks.
 
-## Use it
-
-Open the deployed GitHub Pages site, wait for the Pyodide kernel to load, open `welcome.ipynb`, and run the lessons directly in your browser. No account, server, or local installation is required.
-
-## Local build
-
-```bash
-pip install jupyterlite-core jupyterlite-pyodide-kernel jupyter-server
-python build_lqe_lite.py
-jupyter lite build --contents content --output-dir dist
-```
+No account, server, or local installation is required. The repository contains the source; the link above is the actual app.
 
 ## Scope and limitations
 
